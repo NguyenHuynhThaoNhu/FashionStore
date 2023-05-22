@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/dimen_10"
+    android:layout_marginEnd="@dimen/dimen_10"
+    app:cardCornerRadius="@dimen/dimen_6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/label_id"
+                android:layout_width="@dimen/dimen_100"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/label_id"
+                android:textSize="@dimen/text_size_14" />
+
+            <TextView
+                android:id="@+id/tv_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen_5"
+                android:layout_toEndOf="@+id/label_id"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="@dimen/text_size_14" />
+        </RelativeLayout>
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_10">
+
+            <TextView
+                android:id="@+id/label_menu"
+                android:layout_width="@dimen/dimen_100"
+                android:layout_height="wrap_content"
+                android:text="Product"
+                android:textSize="@dimen/text_size_14" />
+
+            <TextView
+                android:id="@+id/tv_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dimen_5"
+                android:layout_toEndOf="@+id/label_menu"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="@dimen/text_size_14" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_10">
+
+            <TextView
+                android:id="@+id/label_date"
+                android:layout_width="@dimen/dimen_100"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/label_date"
+                android:textSize="@dimen/text_size_14" />
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen_5"
+                android:layout_toEndOf="@+id/label_date"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="@dimen/text_size_14" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/dimen_10"
+            android:background="@color/main"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_10">
+
+            <TextView
+                android:id="@+id/label_total_amount"
+                android:layout_width="@dimen/dimen_100"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/total"
+                android:textColor="@color/main"
+                android:textSize="@dimen/text_size_14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_total_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dimen_5"
+                android:layout_toEndOf="@+id/label_total_amount"
+                android:textColor="@color/bottomMenuActive"
+                android:textSize="@dimen/text_size_14"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_5">
+
+            <TextView
+                android:id="@+id/label_payment"
+                android:layout_width="@dimen/dimen_100"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/label_payment"
+                android:textSize="@dimen/text_size_14" />
+
+            <TextView
+                android:id="@+id/tv_payment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dimen_5"
+                android:layout_toEndOf="@+id/label_payment"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="@dimen/text_size_14"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

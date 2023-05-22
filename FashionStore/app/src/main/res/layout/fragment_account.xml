@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".fragment.AccountFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/contentBodyColor">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <TextView
+            style="@style/viewParent.headerText"
+            android:text="Settings" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profileCircleImageView"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/imageBorderColor"
+                android:src="@drawable/ic_person_foreground"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:id="@+id/usernameTextView"
+                style="@style/viewParent.headerText"
+                android:text="PINCO"
+                android:textSize="25sp"
+                android:layout_toRightOf="@id/profileCircleImageView"
+                android:layout_marginTop="30dp"/>
+
+        </RelativeLayout>
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/darkModeSwitch"
+            style="@style/settingsText"
+            android:drawableLeft="@drawable/ic_dark_mode"
+            android:text="Dark Mode" />
+
+        <TextView
+            style="@style/viewParent.headerText.settingsMiniTitle"
+            android:text="Profile"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/vt_edit"
+            style="@style/viewParent.headerText.settingsTextIcon"
+            android:drawableLeft="@drawable/ic_edit_profile"
+            android:text="Edit Profile" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/tv_change_password"
+            style="@style/viewParent.headerText.settingsTextIcon"
+            android:drawableLeft="@drawable/ic_edit_password"
+            android:layout_marginTop="10dp"
+            android:text="Change Password" />
+
+        <TextView
+            style="@style/viewParent.headerText.settingsMiniTitle"
+            android:text="Notifications"/>
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            style="@style/settingsText"
+            android:checked="true"
+            android:drawableLeft="@drawable/ic_notifications"
+            android:text="Notifications" />
+
+        <TextView
+            style="@style/viewParent.headerText.settingsMiniTitle"
+            android:text="Regional"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            style="@style/viewParent.headerText.settingsTextIcon"
+            android:drawableLeft="@drawable/ic_languages"
+            android:text="Language" />
+
+        <TextView
+            android:id="@+id/tv_log_out"
+            style="@style/viewParent.headerText.settingsTextIcon"
+            android:drawableLeft="@drawable/ic_logout"
+            android:text="Logout" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            style="@style/viewParent.headerText.settingsMiniTitle"
+            android:text="App ver 2.0.1"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+</ScrollView>

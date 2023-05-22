@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "305399504556",
+    "firebase_url": "https://fashionstore-f05d5-default-rtdb.firebaseio.com",
+    "project_id": "fashionstore-f05d5",
+    "storage_bucket": "fashionstore-f05d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305399504556:android:19c3bcf8c8648ad2244909",
+        "android_client_info": {
+          "package_name": "com.fashionstore.fashion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305399504556-p4jqe3cnms2m28nu2smanrdd7majr7ds.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fashionstore.fashion",
+            "certificate_hash": "96a14e77801c7f46175916bb63f27993c42faf99"
+          }
+        },
+        {
+          "client_id": "305399504556-vu4kdbdejnvhnk7hujdfcdfjv3evlfku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYIUAxJ5HVBJuvepk4OE-Lr8burvMaFIc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305399504556-vu4kdbdejnvhnk7hujdfcdfjv3evlfku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
